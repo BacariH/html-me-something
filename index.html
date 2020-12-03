@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Places I have lived, html-me-something</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -11,17 +11,17 @@
             <header class="main-header">
                 <nav class="main-nav">
                     <ul>
-                        <li><a href="" class="active">Pine Bluff</a></li>
-                        <li><a href="">Conway</a></li>
-                        <li><a href="">Russellville</a></li>
-                        <li><a href="">Komazawa</a></li>
-                        <li><a href="">Fayetteville</a></li>
+                        <li><a href="#pines" class="active" onclick="showLocation(0)">Pine Bluff</a></li>
+                        <li><a href="#conway" onclick="showLocation(1)">Conway</a></li>
+                        <li><a href="#russellville" onclick="showLocation(2)">Russellville</a></li>
+                        <li><a href="#komazawa" onclick="showLocation(3)">Komazawa</a></li>
+                        <li><a href="#fayetteville" onclick="showLocation(4)">Fayetteville</a></li>
                     </ul>
                 </nav>
             </header>
             <main class="site-content">
                 <section class="site-content-inner">
-                    <div class="places active-place">
+                    <div class="places active-place" id="pines">
                         <figure>
                             <img src="img/imgP.jpg" alt="The downtown city office">
                             <figcaption>This is a shot of the downtown area in Pine Bluff.</figcaption>
@@ -30,67 +30,67 @@
                             <div class="place-description-inner">
                                 <h3 class="city-name">Pine Bluff, Arkansas</h3>
                                 <p class="city-description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nemo sapiente laborum quo repellendus veniam labore vero quaerat sed cum? Dolorum impedit quasi dolore aut sit cupiditate culpa ea ex!
+                                    The town I was born in. It is the tenth largest city in the state of Arkansas(population of 40,779). The city is situated in the Southeast section of the Arkansas Delta and straddles the Arkansas Timberlands region to the west.
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="places">
+                    <div class="places" id="conway">
                         <figure>
                             <img src="img/imgC.jpg" alt="">
-                            <figcaption></figcaption>
+                            <figcaption>This is the center of Fayetteville, Ar and home to Toad Suck.</figcaption>
                         </figure>
                         <div class="place-description">
                             <div class="place-description-inner">
                                 <h3 class="city-name">Conway, Arkansas</h3>
                                 <p class="city-description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nemo sapiente laborum quo repellendus veniam labore vero quaerat sed cum? Dolorum impedit quasi dolore aut sit cupiditate culpa ea ex!
+                                    This is the city I moved to in high school and the same city I graduated high school from. Conway is the 7th largest city in Arkansas. Conway has experienced growth from big companies such as Acxiom, and Insight Enterprises.
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="places">
+                    <div class="places" id="russellville">
                         <figure>
                             <img src="img/imgR.jpg" alt="">
-                            <figcaption></figcaption>
+                            <figcaption>This is the Student Services center for the college ATU(Arkansas Tech University).</figcaption>
                         </figure>
                         <div class="place-description">
                             <div class="place-description-inner">
                                 <h3 class="city-name">Russellville, Arkansas</h3>
                                 <p class="city-description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nemo sapiente laborum quo repellendus veniam labore vero quaerat sed cum? Dolorum impedit quasi dolore aut sit cupiditate culpa ea ex!
+                                    After I had graduated from Conway High School, I attended ATU in which i was able to go study abroad, and almost get my bachelors in Graphic Design. Russellville, Ar is the 17th largest city in Arkansas. Russellville is home to the Nuclear plant <a href="https://www.entergy-nuclear.com/nuclear-sites/arkansas-nuclear-one/"><em>Arkansas Nuclear One</em></a>
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="places">
+                    <div class="places" id="komazawa">
                         <figure>
                             <img src="img/imgK.jpg" alt="">
-                            <figcaption></figcaption>
+                            <figcaption>This is the olympic park near Komazawa university(駒澤大学)</figcaption>
                         </figure>
                         <div class="place-description">
                             <div class="place-description-inner">
-                                <h3 class="city-name">Komazawa, Setagaya Prefecture(駒沢世田谷)</h3>
+                                <h3 class="city-name">Komazawa, Setagaya Prefecture(駒沢世田谷区)</h3>
                                 <p class="city-description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nemo sapiente laborum quo repellendus veniam labore vero quaerat sed cum? Dolorum impedit quasi dolore aut sit cupiditate culpa ea ex!
+                                    This is the city in which I attended, my study abroad program. The food was great, the views were cool, people were nice(when they wanted to talk to you), all around this was a cool place to live in. Setagaya is a special ward in Tokyo, Japan. The ward calls itself Setagaya City in English. Its offical bird is the <em><a href="https://en.wikipedia.org/wiki/Azure-winged_magpie">Azure-winged Magpie</a></em>
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="places">
+                    <div class="places" id="fayetteville">
                         <figure>
                             <img src="img/imgF.png" alt="">
-                            <figcaption></figcaption>
+                            <figcaption>This is a picture that over looks the university in Fayetteville,Ar</figcaption>
                         </figure>
                         <div class="place-description">
                             <div class="place-description-inner">
                                 <h3 class="city-name">Fayetteville, Arkansas</h3>
                                 <p class="city-description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nemo sapiente laborum quo repellendus veniam labore vero quaerat sed cum? Dolorum impedit quasi dolore aut sit cupiditate culpa ea ex!
+                                    This is the city I now reside in, abd its pretty swell. From the night life to the nature trails, and technology. Fayetteville is the 2nd largest city in Arkansas. The city was known as Washington until 1829, then its name was changes to Fayetteville, Tennessee. It is also rated one of the top cities to live in.
                                 </p>
                             </div>
                         </div>
