@@ -71,7 +71,17 @@ figure img
     line-height: 1.4;
 }
 
+.places 
+{
+    display: none;
+}
+
 .active 
 {
     text-decoration: underline;
 }
+
+/* .active-place 
+{
+    display: block;
+} */
